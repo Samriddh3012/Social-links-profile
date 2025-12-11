@@ -1,0 +1,97 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+body {
+    margin: 0;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    height: 560px;
+    width: 380px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.links div {
+    padding: 10px;
+    width: 275px;
+    height: 20px;
+    margin-bottom: 15px;
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(0, 0%, 90%);
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.github {
+    margin-top: 10px;
+}
+
+.top {
+    /* margin: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.jessica {
+    margin-bottom: 7.5px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.location {
+    margin-bottom: 22px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 13px;
+
+}
+
+.bio {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: hsl(0, 0%, 75%);
+}
+
+.links div:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: url('https://img.icons8.com/ios-glyphs/20/1A1A1A/hand-cursor.png'), pointer;
+}
+
+@media(max-width:380px) {
+    .main {
+        width: 320px;
+    }
+}
